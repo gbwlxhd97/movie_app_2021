@@ -1,0 +1,7 @@
+.detail-card {
+  font-size: larger;
+  margin: 200px;
+  box-shadow: 5px 5px 5px 5px gray;
+  text-align: center;
+  padding: 30px 0;
+}

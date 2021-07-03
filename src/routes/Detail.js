@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Detail.css"
 class Detail extends React.Component {
   componentDidMount() {
     const { location, history } = this.props;
@@ -10,7 +10,7 @@ class Detail extends React.Component {
   render() {
     const { location } = this.props;
     if (location.state) {
-      return <span>{location.state.title}</span>;
+      return <div className="detail-card" >{location.state.title}</div>;
     } else {
       return null;
     }
